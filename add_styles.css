@@ -53,7 +53,7 @@ body.overlay-is-open .overlay {
 
 @keyframes showError {
     50% {
-        color: red;
+        color: rgb(224, 59, 59);
         transform: scale(1.2);
     }
     100% {
