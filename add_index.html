@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add_styles.css">
+</head>
+<body>
+    <div class="main-ui">
+        <p class="problem"></p>
+        <form action="" id="our-form">
+            <input type="text" id="our-field" autocomplete="off">
+            <button>Submit</button>
+        </form>
+
+        <p>You need <span id="points-needed">10</span> more points and are allowed to make <span id="mistakes-allowed">2</span> mistakes.</p>
+        <div class="progress">
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="progress-inner"></div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="overlay-inner">
+            <p id="end-message"></p>
+            <button id="reset-button">Play again</button>
+        </div>
+    </div>
+    <script src="add_main.js"></script>
+</body>
+</html>
